@@ -1,0 +1,12 @@
+.row{
+    .Card{
+        border: none;
+        &:hover{
+            border: 1px solid lightgrey;
+        }
+        .card-text{
+            font-size: 12px;
+            color: grey;
+        }
+    }
+}

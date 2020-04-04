@@ -1,0 +1,20 @@
+.twicebutton{
+    width: 100%;
+    background-color: red;
+    padding: 3px;
+
+    button{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        outline: none;
+        border: none;
+    }
+    .white-btn{
+        color: red;
+        background-color: white;
+    }
+    .red-btn{
+        color: white;
+        background-color: red;
+    }
+}

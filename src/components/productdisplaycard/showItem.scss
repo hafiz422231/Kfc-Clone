@@ -1,0 +1,29 @@
+.row{
+    font-family: sans-serif;
+    
+    .right-side{
+        .heading{
+            .link{
+                text-transform: uppercase;
+                margin-left: 6px;
+                margin-right: 6px;
+                font-size: 11px;
+                color: black;
+                font-weight: bold;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+            p{
+                font-size: 12px;
+            }
+            .btn-group{
+                .btn{
+                    padding: 4px 18px 4px 18px;
+                    border: 1px solid red;
+                    border-radius: 0px;
+                }
+            }
+        }
+    }
+}

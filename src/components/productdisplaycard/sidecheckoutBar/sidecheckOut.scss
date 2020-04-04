@@ -1,0 +1,33 @@
+.mainWrapper{
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    width: 20%;
+    background-color: whitesmoke;
+
+    .black-header{
+        width: 100%;
+        background-color: black;
+        height: 10%;
+
+        .value{
+            position: absolute;
+            top: 30px;
+            left: 50px;
+        }
+
+    }
+    .color-red{
+        color: white;
+        background-color: red;
+        &:hover{
+            color: white;
+        }
+    }
+    .link-under{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
